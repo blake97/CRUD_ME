@@ -133,9 +133,9 @@ namespace :db do
   end
 end
 
-desc 'Start PRY with application environment loaded'
+desc 'Start pry with application environment loaded'
 task "console" do
-  exec "PRY -r./config/environment"
+  exec "pry -r./config/environment"
 end
 
 

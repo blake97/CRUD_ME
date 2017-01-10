@@ -25,6 +25,6 @@ end
 group :test, :development do
   gem 'factory_girl'
   gem 'faker'
-  gem 'PRY'
-  gem 'PRY-byebug'
+  gem 'pry'
+  gem 'pry-byebug'
 end
